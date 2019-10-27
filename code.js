@@ -20,6 +20,7 @@ class TicTacToeGame {
                 this.currentPlayer = (this.currentPlayer == PLAYER_ONE_SYMBOL ?
                     PLAYER_TWO_SYMBOL :
                     PLAYER_ONE_SYMBOL);
+                document.getElementById('playerTurn').innerText = ('Player ' + this.currentPlayer + ' Turn');
             }
         }
     }

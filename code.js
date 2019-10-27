@@ -59,7 +59,7 @@ class TicTacToeGame {
     }
 
     drawBoard() {
-        document.body.innerHTML = "";
+        document.body.innerHTML = "<h1 id='playerTurn'>Player X Turn</h1>";
         let gameBoard = document.createElement('div');
         gameBoard.id = 'gameBoard';
         gameBoard.classList.add('board');

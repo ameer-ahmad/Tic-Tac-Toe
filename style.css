@@ -4,6 +4,12 @@ body {
     align-items: center;
 }
 
+#playerTurn {
+    font-size: 4em;
+    width: 300px;
+    height: 100px;
+}
+
 .board {
     display: flex;
     flex-wrap: wrap;
